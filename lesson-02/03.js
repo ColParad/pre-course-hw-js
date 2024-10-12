@@ -1,4 +1,5 @@
 function factorial(n) {
+    console.log("Debugging");
     debugger;
     if (n === 0 || n === 1) {
         return 1;
