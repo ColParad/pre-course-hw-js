@@ -1,6 +1,6 @@
 function factorial(n) {
-    console.log("Debugging");
     debugger;
+    console.log("Debugging");
     if (n === 0 || n === 1) {
         return 1;
     } else {
