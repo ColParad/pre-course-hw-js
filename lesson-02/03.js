@@ -1,9 +1,9 @@
 function factorial(n) {
-    debugger;
-    console.log("Debugging");
+
     if (n === 0 || n === 1) {
         return 1;
     } else {
+        debugger;
         return n * factorial(n - 1);
     }
 }
